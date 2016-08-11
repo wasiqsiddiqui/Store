@@ -6,15 +6,12 @@ using namespace std;
 
 
 Household::Household(int num, string name): Product(num, name){
-    
     this->setDefaultReturnPeriod(30);
-    
 }
 
 
 string Household::getInfo(){
     return this->getDescription();
-    
 }
 
 Product::Category Household::getType(){
