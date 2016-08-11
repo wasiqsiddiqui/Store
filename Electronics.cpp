@@ -7,7 +7,6 @@ using namespace std;
 
 
 string Electronics::getInfo(){
-    
     return this -> getDescription();
 }
 
